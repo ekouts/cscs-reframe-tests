@@ -262,7 +262,7 @@ def create_checks(check):
         name='netiface-hsn2-ip',
         descr='Verify hsn2 has expected IP address range',
         valid_systems=['daint', 'santis', 'clariden'],
-        expected=r'inet 172\.28\.\d+\.\d+/16 .* scope global hsn2'
+        expected=r'inet 172\.28\.\d+\.\d+/16 .*scope global hsn2'
         #expected=r'inet 172.28.*.*/16 brd 172.28.255.255 scope global hsn2'
     )
 
